@@ -108,7 +108,7 @@ margin-left:10px;
                 border: 1px solid grey; font-size: 20px; padding:20px; padding-right:20px; padding-top:10px; background-color: yellowgreen; text-align: center; margin-top:10px; margin-left:10px;
             }
 
-           @media screen and (max-width: 768px) {
+           @media screen and (max-width: 628px) {
                 body {
-                  background-color: #333;}
+                  background: #333;}
            }
