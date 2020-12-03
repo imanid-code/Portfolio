@@ -2,7 +2,7 @@
     body {
         background-image: url(marble.jpeg);
 }
-.aboutbox{
+.container{
     background-color: white; 
     padding: 25px; 
     border:1px solid grey; 
@@ -10,14 +10,36 @@
     margin-top: 80px;
     background-color: white; 
     width:850px; 
-    padding-bottom: 300px;
+    padding-bottom: 100px;
      margin-left: 40px;
 }
 
-box #abme{
+h1{
     color:aqua;
 }
 
-image{
-    width: 250px;height: 250px;
+#profile{
+    width: 300px;height: 300px;
+
+}
+
+p{
+    font-size: 20px;
+    margin-left: -70px;
+}
+
+/*This is where profile.html styling begins*/
+
+.containerp{
+    background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px; background-color: white; width:750px; padding-bottom: 300px; margin-left:40px; padding-right: 50px;
+}
+
+.profile{
+    color: purple;
+}
+
+.img-thumbnail{
+margin-bottom: 20px;
+margin-left:10px;
+
 }
