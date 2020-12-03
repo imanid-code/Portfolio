@@ -1,0 +1,15 @@
+
+    body {
+        background-image: url(marble.jpeg);
+}
+.aboutbox{
+    background-color: white; 
+    padding: 25px; 
+    border:1px solid grey; 
+    font-size: 40px;
+    margin-top: 80px;
+    background-color: white; 
+    width:850px; 
+    padding-bottom: 300px;
+     margin-left: 40px;
+}
