@@ -7,7 +7,7 @@ This portfolio was designed to be mobile responsive. It includes bootstrap (navb
 **Installation**
 
 Use the following html link to access the website.
-```bash enterwebsitehere``` 
+```https://imanid-code.github.io/Bootstrap-Portfolio/``` 
 
 **Usage**
 Using the navigation bar at the top you can maneuver through the portfolio to find: a biographical paragraph, snippets of web designs and how to contact the developer. 
