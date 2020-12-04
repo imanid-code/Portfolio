@@ -17,10 +17,14 @@ If you click on the ```Home|About ``` button in the navigation bar it will take 
 
 ![bio](assets/about.png)
  <hr>
- Each time you navigate to a different page the color scheme will change. Once you click on ``` Portfolio ``` you will see placeholders for upcoming developments. 
+
+ Each time you navigate to a different page the color scheme will change. Once you click on ``` Portfolio``` you will see placeholders for upcoming developments. 
+
  ![bio](assets/portfolio.png)
 <hr>
+
  The color scheme will change again once you click on the ``` Contact ``` button in the navigation bar.
+
 ![contact](assets/contact1.png) 
  The contact page is for people who visit the website/app to be able to reach the developer. They can leave their Name, Email and A message.
 ![contact](assets/contact2.png)
