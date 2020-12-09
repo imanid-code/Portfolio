@@ -29,4 +29,4 @@ If you click on the ```Home|About ``` button in the navigation bar it will take 
  The contact page is for people who visit the website/app to be able to reach the developer. They can leave their Name, Email and A message.
 ![contact](assets/contact2.png)
 
-**Contribution**
+**Technology**
