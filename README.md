@@ -10,6 +10,8 @@ Use the following html link to access the website.
 ```https://imanid-code.github.io/Bootstrap-Portfolio/``` 
 
 **Usage**
+
+
 Using the navigation bar at the top you can maneuver through the portfolio to find: a biographical paragraph, snippets of web designs and how to contact the developer. 
 ![navigationbar](assets/navbar.png)
 
@@ -30,4 +32,6 @@ If you click on the ```Home|About ``` button in the navigation bar it will take 
 ![contact](assets/contact2.png)
 
 **Technology**
- ```Bootstrap: navigation bar```
+
+
+ ```Bootstrap```   ```HTML```   ```CSS```
