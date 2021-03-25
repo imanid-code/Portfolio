@@ -34,11 +34,11 @@ p{
 
 .containerp{
     background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px; background-color: white; width:80%; height: 80%; padding-bottom: 200px; margin-left:110px; padding-right: 30px;
-    border: 2px pink solid;
+    border: 2px coral solid;
 }
 
 .profile{
-    color: purple;
+    color: coral;
 }
 h1{
     text-align: center;
@@ -51,7 +51,7 @@ margin-left:10px;
 margin-bottom: 150px;
 width: 350px;
 height: 350px;
-border: 4px purple solid;
+border: 4px coral solid;
 
 }
 #p1{
@@ -81,15 +81,26 @@ border: 4px purple solid;
     margin-left: 30px;
     margin-top: 10px;
 }
+#p8{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#p9{
+    margin-left: 30px;
+    margin-top: 10px;  
+}
 a{
     display: inline;
-    margin-left: 100px;
-    margin-top: 10px;
+   
+    margin-top: 20px;
 
+}
+.label{
+    margin-left: 90px;
 }
 
 #hrp{
-    border-top: 1px solid pink;
+    border-top: 1px solid coral;
 }
 #hrh{
     border-top: 1px solid darkgray;

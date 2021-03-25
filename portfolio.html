@@ -1,96 +1,116 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
-    
+
+
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    
-<title>Responsive Portfolio</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+  <title>Responsive Portfolio</title>
 </head>
 
 <body>
-    
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;width: 90%; margin-left: 50px;">
-            <a class="navbar-brand" style="float:right;width:900px; margin-left:5px; color:white"><box style="border: 3px solid purple; background-color: purple; padding:10px;">Imani R. Dillahunt</box></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" style=color:white href="index.html"><box style="border: 3px solid purple; background-color:purple; padding:10px;">Home|About</box></a>
-                    
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style=color:white href="portfolio.html"><box style="border: 3px solid purple; background-color:purple; padding:10px;">Portfolio</box></a>
-                  </li>
-                  <li class="nav-item">
-              
-                    <a class="nav-link" style=color:white href="contact.html"><box style="border: 3px solid purple; background-color: purple; padding:10px;">Contact</box></a>
-                  </li>
-              </ul>
-            </div>
-          </nav>
-
-<div class="containerp">
-  <div class="row">
-    <div class="col-md-12"> 
-      <div class="profilebox">
-       <h1 class="profile">Profile</h1>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: orange;width: 100%;">
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false"
+        style="border: 3px solid coral; background-color: coral; padding:10px;">
+        Imani R. Dillahunt
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="nav-link" style=color:white href="index.html">
+          <box style="border: 3px solid coral; background-color: coral; padding:10px;">Home|About</box>
+        </a>
+        <a class="nav-link" style=color:white href="portfolio.html">
+          <box style="border: 3px solid coral; background-color:coral; padding:10px;">Portfolio</box>
+        </a>
+        <a class="nav-link" style=color:white href="contact.html">
+          <box style="border: 3px solid coral; background-color:coral; padding:10px;">Contact</box>
+        </a>
+        <a class="nav-link" style=color:white href="https://www.linkedin.com/in/imani-dillahunt-42b4891b9/">
+          <box style="border: 3px solid coral; background-color: coral; padding:10px;">Linkedin</box>
+        </a>
+        <a class="nav-link" style=color:white
+          href="https://docs.google.com/document/d/1e6loZ9RRvcvf7liZNyAK2ap6fPFCfvF_aXXoA-2fKxM/edit">
+          <box style="border: 3px solid coral; background-color: coral; padding:10px;">Resume</box>
+        </a>
       </div>
-      <hr id="hrp">
-      <div class="row">
-        <div class="col-md-6">
-          
-          <a href="https://imanid-code.github.io/Code-Refactor---hw-1/">Code Refactor</a>
-        
-          <img class="portfoliopic" id="p1" src="assets/p1.png" >
-        </div>
-        <div class="col-md-6">
-          <a href="https://callingrapher.github.io/ProjectTheFirst/">Coupon API</a>
-          
-          <img class="portfoliopic" id="p2" src="assets/p2.png">
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="https://imanid-code.github.io/Password-Generator-hw3/">Password Generator</a>
-          <img class="portfoliopic" id="p3" src="assets/p3.png">
-        </div>
-        <div class="col-md-6">
-          <a href="https://imanid-code.github.io/homework4/">Web API Code Quiz</a>
-          <img class="portfoliopic" id="p4" src="assets/p4.png">
     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <a href="https://imanid-code.github.io/WorkDay-Scheduler/">WorkDay Scheduler</a>
-        <img class="portfoliopic" id="p5" src="assets/p5.png">
-      </div>
-      <div class="col-md-6">
-        <a href="https://imanid-code.github.io/Weather-Dashboard/">Weather Dashboard</a>
-        <img class="portfoliopic" id="p6" src="assets/p6.png">
-      </div>
-      <div class="col-md-6">
-        <a href="https://donteatdaburger.herokuapp.com/">Burger App</a>
-        <img class="portfoliopic" id="p7" src="assets/p7.png">
-      </div>
-     </div>
-</div>
-</div>
-</div>
-  </div>
-</div>
+  </nav>
 
-          
-            
+  <div class="containerp">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="profilebox">
+          <h1 class="profile">Profile</h1>
+        </div>
+        <hr id="hrp">
+        <div class="row">
+          <div class="col-md-6">
+
+            <a class="label" href="https://imanid-code.github.io/Code-Refactor---hw-1/">Code Refactor</a>
+
+            <img class="portfoliopic" id="p1" src="assets/p1.png">
+          </div>
+          <div class="col-md-6">
+            <a style="margin-left: 130px;" href="https://callingrapher.github.io/ProjectTheFirst/">Coupon API</a>
+
+            <img class="portfoliopic" id="p2" src="assets/p2.png">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a class="label" href="https://imanid-code.github.io/Password-Generator-hw3/">Password Generator</a>
+              <img class="portfoliopic" id="p3" src="assets/p3.png">
+            </div>
+            <div class="col-md-6">
+              <a class="label" href="https://imanid-code.github.io/homework4/">Web API Code Quiz</a>
+              <img class="portfoliopic" id="p4" src="assets/p4.png">
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a class="label" href="https://imanid-code.github.io/WorkDay-Scheduler/">WorkDay Scheduler</a>
+                <img class="portfoliopic" id="p5" src="assets/p5.png">
+              </div>
+              <div class="col-md-6">
+                <a class="label" href="https://imanid-code.github.io/Weather-Dashboard/">Weather Dashboard</a>
+                <img class="portfoliopic" id="p6" src="assets/p6.png">
+              </div>
+              <div class="col-md-6">
+                <a style="margin-left: 150px;" href="https://donteatdaburger.herokuapp.com/">Burger App</a>
+
+                <img class="portfoliopic" id="p7" src="assets/p7.png">
+              </div>
+              <div class="col-md-6">
+                <a style="margin-left: 150px;" href="https://project2-teamfive.herokuapp.com/">Munchies</a>
+                <img class="portfoliopic" id="p8" src="assets/p8.png">
+              </div>
+              <div class="col-md-6">
+                <a style="margin-left: 110px;" href="https://expressnotetaker0224.herokuapp.com/">Express Note Taker</a>
+                <img class="portfoliopic" id="p9" src="assets/p9.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 </body>
 <footer class="f2">
   <a id="foot2" href="https://github.com/imanid-code">Github Reprositories</a>
   <br>
   Copyright 2020 Imani Dilllahunt
- 
+
 </footer>
+
 </html>
