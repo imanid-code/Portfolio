@@ -2,22 +2,47 @@
     body {
         background-image: url(marble.jpeg);
 }
-.container{
-    background-color: white; 
-    padding: 25px; 
-    border:1px solid grey; 
-    font-size: 40px;
-    margin-top: 80px;
-    background-color: white; 
-    width:850px; 
-    padding-bottom: 100px;
-     margin-left: 340px;
-     border: 2px aqua solid;
+
+
+.card{
+    border: 3px solid aqua;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+     
 }
 
+#aboutme{
+    margin-left: 150px;
+    margin-right: 20px;
+    
 
+}
+#Education{
+margin-left: 800px;
+margin-top: -470px;
+margin-right: 20px;
+
+
+}
+#skills{
+    margin-left: 150px;
+    overflow: scroll; 
+   height: 350px;
+}
+
+#contactinfo{
+    margin-left: 800px;
+    margin-top: -350px;
+}
 h1{
     color:aqua;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    padding: 20px;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 20px;
 }
 
 #profile{
@@ -27,7 +52,22 @@ h1{
 
 p{
     font-size: 20px;
-    margin-left: -70px;
+    margin-left: -50px;
+}
+#educationpic{
+    width: 10%;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+#educationpic2{
+    width: 10%;
+   
+    
+}
+#aboutmepic{
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 /*This is where profile.html styling begins*/
@@ -39,6 +79,9 @@ p{
 
 .profile{
     color: coral;
+    border: white;
+    background-color: white;
+    margin-left: 200px;
 }
 h1{
     text-align: center;
@@ -109,7 +152,7 @@ a{
     border-top: 1px solid yellow;
 }
         .f1    {
-                text-align:center; padding: 15px; border: 4px solid aqua; margin-top: 100px; background-color: aqua; color: white;
+                text-align:center; padding: 15px; border: 4px solid aqua; margin-top: 150px; background-color: aqua; color: white;
             }
             #foot1{
                 text-align: center;
@@ -131,43 +174,45 @@ a{
             /*This is where stying for contact html begins*/
 
             .containerc{
-                background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px;background-color: white; width:850px; padding-bottom: 30px; margin-left:280px;
+                background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px;background-color: white; width:650px; padding-bottom: 30px; margin-left:380px;
             border: 2px yellow solid;
             }
 
             .contactbox{
                     color: yellowgreen;
+                    margin-left: 120px;
+                    background-color: white;
+                    border:white
             }
-            .Name{
-                border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px;
-            }
+            
             .col-md-12{
                 font-size: 22px;
                 padding-bottom: 10px;
                 margin-top: 10px;
+                margin-left: 20px;
             }
             .col-lg-12{
                 padding-left: 30px;
                 font-size: 22px;
-                padding-bottom: 10px;
                 margin-top: 10px;
             }
-            
-            .Email{
-                border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px;
+            input{
+                margin-left: 100px;
+                padding-right: 200px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            #Message{
+                padding-bottom: 60px;
             }
             
-        
-            .Message{
-                border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 28px;padding-bottom: 100px; margin-top: 10px; font-size: 22px;
-            }
 
             .f3{
                 text-align:center; padding: 15px; border: 4px solid; margin-top: 100px; background-color: yellow; color:black;
             }
 
             #submit{
-                border: 1px solid grey; font-size: 20px; padding:20px; padding-right:20px; padding-top:10px; background-color: yellowgreen; text-align: center; margin-top:10px; margin-left:10px;
+                border: 1px solid grey; font-size: 20px; padding:20px; padding-right:20px; padding-top:10px; background-color: yellowgreen; text-align: center; margin-top:10px; margin-left:240px;
             }
 
            @media screen and (max-width: 628px) {
